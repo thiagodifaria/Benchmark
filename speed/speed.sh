@@ -32,7 +32,7 @@ echo "    Comprehensive Speed Benchmark Suite"
 echo ""
 echo "Multi-domain performance testing across multiple programming languages"
 echo "Testing computational, I/O intensive, and memory management operations"
-echo "Scale factor: $SCALE_FACTOR (1=light, 5=intensive)"
+echo "Scale factor: $SCALE_FACTOR (1 = Light, 5 = Intensive)"
 echo ""
 
 # check if required subdirectories exist
@@ -280,8 +280,7 @@ echo ""
 if [ $COMPLETED_BENCHMARKS -eq 3 ]; then
     echo "Comprehensive Speed Benchmark Suite completed successfully!"
     echo "All languages tested across computational, I/O, and memory management operations."
-    echo "Use the results to make informed decisions about language selection"
-    echo "for your performance-critical applications."
+    echo "Use the results to make informed decisions about language selection for your performance-critical applications."
     exit 0
 else
     echo "Comprehensive Speed Benchmark Suite completed with issues."
